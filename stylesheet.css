@@ -7,6 +7,28 @@ body {
 	text-align:center;
 }
 
+.layout_USB{
+	width: 100%;
+	height: 400px;
+
+}
+
+#layout_USB{
+	width: 100%;
+	height: 230px;
+}
+
+#nav_bar{
+	width: 100%;
+	height: 50px;
+	background-color: #d4ba35;
+	margin-top: -8px;
+	
+	
+}
+.navbar-expand-lg {
+    background-color: #d4ba35;
+}
 .tile{
 	width: 100%;
 	background:#fff;
