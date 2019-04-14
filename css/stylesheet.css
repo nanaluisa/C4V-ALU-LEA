@@ -33,6 +33,11 @@ body {
 	background-color: #d4ba35;
 }
 
+.navbar-navbar-expand-lg:hover{
+	background-color: #d4ba35;
+}
+
+
 .nav-link{
 	color: #fff;
 	font-style: bold;
@@ -40,9 +45,6 @@ body {
 	margin-left:15px;
 }
 
-.nav-link:hover{
-	background-color:#222a17;
-}
 
 .tile{
 	width: 100%;
