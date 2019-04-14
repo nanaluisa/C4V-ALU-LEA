@@ -129,39 +129,11 @@ body {
 .stats div:nth-of-type(3){border:none;}
 
 div.footer {
-	text-align: right;
 	position: relative;
-	margin: 20px 5px;
+	margin: 20px 10px 20px;
+	
 }
 
-div.footer a.Cbtn{
-	padding: 10px 25px;
-	background-color: #DADADA;
-	color: #666;
-	margin: 10px 2px;
-	text-transform: uppercase;
-	font-weight: bold;
-	text-decoration: none;
-	border-radius: 3px;
-}
-
-div.footer a.Cbtn-primary{
-	background-color: #5AADF2;
-	color: #FFF;
-}
-
-div.footer a.Cbtn-primary:hover{
-	background-color: #7dbef5;
-}
-
-div.footer a.Cbtn-danger{
-	background-color: #fc5a5a;
-	color: #FFF;
-}
-
-div.footer a.Cbtn-danger:hover{
-	background-color: #fd7676;
-}
 /* Our own style*/
 .top {
 	width:30px !important;
@@ -169,5 +141,20 @@ div.footer a.Cbtn-danger:hover{
 
 .container-fluid{
 	width:95%;
-	border
 }
+
+
+.infobtn{
+	width: 60px;
+}
+
+
+
+.donatebtn{
+	width:150px;
+	margin-left: 6px;
+}
+
+
+
+
