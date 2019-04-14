@@ -138,6 +138,51 @@ include 'C:\xampp\htdocs\dashboard\queries.php';
 
 			?>
 	</table>
+	<br>
+	<br>
+	<table>
+		 <tr>
+			<th>TOP           </th>
+			<th>Name          </th>
+			<th>Amount donated</th>
+			<th>Category      </th>
+		 </tr>
+			<?php
+
+			    //SELECT in DB table
+			    $lv_sql  = get_top_5_all_country( );
+			    $lv_sql  = mysqli_query($gc_conexao, $lv_sql);
+
+			    //check if SELECT worked
+			    if($lv_sql === FALSE) { 
+			       echo("errou");
+			    }
+
+			    //iterate in every line that returned from the SELECT
+			    $lv_iteration = 0;
+
+			    while ($lv_linha = mysqli_fetch_assoc($lv_sql)) {
+
+			    	$lv_iteration += 1;
+					$Name          = $lv_linha              ['Name'      ]    ;
+					$amount        = number_format($lv_linha['TotalValue'], 2);
+					$category      = $lv_linha              ['Campaign'  ]    ;
+					$country       = $lv_linha              ['Country'   ]    ;
+  
+				     echo 
+				     	" <tr>							\n" .
+				     	"	<td> $lv_iteration </td>	\n" .
+				        "  	<td> $Name         </td>	\n" .
+				        "	<td> $amount       </td>	\n" .
+				        "   <td> $category     </td>    \n ".
+				        "   <td> $country      </td>    \n ".
+				        " </tr>					        \n" ;
+
+				} 
+
+
+			?>
+	</table>
 
 </body>
 </html>
