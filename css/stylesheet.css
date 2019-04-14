@@ -68,6 +68,7 @@ body {
 
 .banner-img {
 	padding: 5px 5px 0;
+	margin-bottom: 20px;
 }
 
 .banner-img img {
@@ -91,7 +92,6 @@ body {
 	text-align:center;
 	position:relative;
 }
-.dates strong,
 .stats strong{
 	display:block;
 	color:#adb8c2;
@@ -116,12 +116,15 @@ body {
 	font-weight:600;
 	border-radius: 0 0 5px 5px;
 }
+
 .stats div{
+	
 	border-right:1px solid #ebeff2;
-	width: 33.33333%;
+	width: 29.33333%;
 	float:left;
 	text-align:center
 }
+
 
 .stats div:nth-of-type(3){border:none;}
 
