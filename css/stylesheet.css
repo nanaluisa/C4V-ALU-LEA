@@ -181,5 +181,9 @@ div.footer {
 	box-shadow: 0px 0px 2.5px black;
 }
 
-
+.progress a{
+	font-weight: bold;
+	margin:auto;
+	text-align: center;
+}
 
