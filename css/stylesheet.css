@@ -163,3 +163,7 @@ div.footer a.Cbtn-danger:hover{
 .top {
 	width:30px !important;
 }
+
+.container-fluid{
+	width:95%;
+}
