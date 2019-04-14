@@ -45,7 +45,6 @@ body {
 	margin-left:15px;
 }
 
-
 .tile{
 	width: 100%;
 	background:#fff;
@@ -159,4 +158,8 @@ div.footer a.Cbtn-danger{
 
 div.footer a.Cbtn-danger:hover{
 	background-color: #fd7676;
+}
+/* Our own style*/
+.top {
+	width:30px !important;
 }
